@@ -387,7 +387,7 @@ img { max-width: 100%; }
 .b--moon-gray { border-color: #ccc; }
 .b--light-gray { border-color: #e4e9f0; }
 .b--near-white { border-color: #f4f4f4; }
-.b--white { border-color: #fff; }
+.b--white { border-color: #f4f4f4; }
 .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
 .b--white-80 { border-color: rgba( 255, 255, 255, .8 ); }
 .b--white-70 { border-color: rgba( 255, 255, 255, .7 ); }
@@ -441,128 +441,189 @@ img { max-width: 100%; }
 .b--inherit { border-color: inherit; }
 /* hover */
 .b--black-hover:hover { border-color: #000; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-hover:focus { border-color: #000; transition: border-color .25s ease-in-out; }
+.b--black-hover:active { border-color: #000; transition: border-color .25s ease-in-out; }
 .b--near-black-hover:hover { border-color: #111; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--near-black-hover:focus { border-color: #111; transition: border-color .25s ease-in-out; }
+.b--near-black-hover:active { border-color: #111; transition: border-color .25s ease-in-out; }
 .b--dark-gray-hover:hover { border-color: #333; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--dark-gray-hover:focus { border-color: #333; transition: border-color .25s ease-in-out; }
+.b--dark-gray-hover:active { border-color: #333; transition: border-color .25s ease-in-out; }
 .b--mid-gray-hover:hover { border-color: #555; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--mid-gray-hover:focus { border-color: #555; transition: border-color .25s ease-in-out; }
+.b--mid-gray-hover:active { border-color: #555; transition: border-color .25s ease-in-out; }
 .b--gray-hover:hover { border-color: #666; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--gray-hover:focus { border-color: #666; transition: border-color .25s ease-in-out; }
+.b--gray-hover:active { border-color: #666; transition: border-color .25s ease-in-out; }
 .b--silver-hover:hover { border-color: #999; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--silver-hover:focus { border-color: #999; transition: border-color .25s ease-in-out; }
+.b--silver-hover:active { border-color: #999; transition: border-color .25s ease-in-out; }
 .b--light-silver-hover:hover { border-color: #aaa; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--light-silver-hover:focus { border-color: #aaa; transition: border-color .25s ease-in-out; }
+.b--light-silver-hover:active { border-color: #aaa; transition: border-color .25s ease-in-out; }
 .b--moon-gray-hover:hover { border-color: #ccc; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--moon-gray-hover:focus { border-color: #ccc; transition: border-color .25s ease-in-out; }
+.b--moon-gray-hover:active { border-color: #ccc; transition: border-color .25s ease-in-out; }
 .b--light-gray-hover:hover { border-color: #e4e9f0; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--light-gray-hover:focus { border-color: #e4e9f0; transition: border-color .25s ease-in-out; }
+.b--light-gray-hover:active { border-color: #e4e9f0; transition: border-color .25s ease-in-out; }
 .b--near-white-hover:hover { border-color: #f4f4f4; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
-.b--white-hover:hover { border-color: #fff; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--near-white-hover:focus { border-color: #f4f4f4; transition: border-color .25s ease-in-out; }
+.b--near-white-hover:active { border-color: #f4f4f4; transition: border-color .25s ease-in-out; }
+.b--white-hover:hover { border-color: #f4f4f4; transition: border-color .25s ease-in-out; }
+.b--white-hover:focus { border-color: #f4f4f4; transition: border-color .25s ease-in-out; }
+.b--white-hover:active { border-color: #f4f4f4; transition: border-color .25s ease-in-out; }
 .b--white-90-hover:hover { border-color: rgba( 255, 255, 255, .9 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-90-hover:focus { border-color: rgba( 255, 255, 255, .9 ); transition: border-color .25s ease-in-out; }
+.b--white-90-hover:active { border-color: rgba( 255, 255, 255, .9 ); transition: border-color .25s ease-in-out; }
 .b--white-80-hover:hover { border-color: rgba( 255, 255, 255, .8 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-80-hover:focus { border-color: rgba( 255, 255, 255, .8 ); transition: border-color .25s ease-in-out; }
+.b--white-80-hover:active { border-color: rgba( 255, 255, 255, .8 ); transition: border-color .25s ease-in-out; }
 .b--white-70-hover:hover { border-color: rgba( 255, 255, 255, .7 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-70-hover:focus { border-color: rgba( 255, 255, 255, .7 ); transition: border-color .25s ease-in-out; }
+.b--white-70-hover:active { border-color: rgba( 255, 255, 255, .7 ); transition: border-color .25s ease-in-out; }
 .b--white-60-hover:hover { border-color: rgba( 255, 255, 255, .6 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-60-hover:focus { border-color: rgba( 255, 255, 255, .6 ); transition: border-color .25s ease-in-out; }
+.b--white-60-hover:active { border-color: rgba( 255, 255, 255, .6 ); transition: border-color .25s ease-in-out; }
 .b--white-50-hover:hover { border-color: rgba( 255, 255, 255, .5 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-50-hover:focus { border-color: rgba( 255, 255, 255, .5 ); transition: border-color .25s ease-in-out; }
+.b--white-50-hover:active { border-color: rgba( 255, 255, 255, .5 ); transition: border-color .25s ease-in-out; }
 .b--white-40-hover:hover { border-color: rgba( 255, 255, 255, .4 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-40-hover:focus { border-color: rgba( 255, 255, 255, .4 ); transition: border-color .25s ease-in-out; }
+.b--white-40-hover:active { border-color: rgba( 255, 255, 255, .4 ); transition: border-color .25s ease-in-out; }
 .b--white-30-hover:hover { border-color: rgba( 255, 255, 255, .3 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-30-hover:focus { border-color: rgba( 255, 255, 255, .3 ); transition: border-color .25s ease-in-out; }
+.b--white-30-hover:active { border-color: rgba( 255, 255, 255, .3 ); transition: border-color .25s ease-in-out; }
 .b--white-20-hover:hover { border-color: rgba( 255, 255, 255, .2 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-20-hover:focus { border-color: rgba( 255, 255, 255, .2 ); transition: border-color .25s ease-in-out; }
+.b--white-20-hover:active { border-color: rgba( 255, 255, 255, .2 ); transition: border-color .25s ease-in-out; }
 .b--white-10-hover:hover { border-color: rgba( 255, 255, 255, .1 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-10-hover:focus { border-color: rgba( 255, 255, 255, .1 ); transition: border-color .25s ease-in-out; }
+.b--white-10-hover:active { border-color: rgba( 255, 255, 255, .1 ); transition: border-color .25s ease-in-out; }
 .b--white-05-hover:hover { border-color: rgba( 255, 255, 255, .05 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-05-hover:focus { border-color: rgba( 255, 255, 255, .05 ); transition: border-color .25s ease-in-out; }
+.b--white-05-hover:active { border-color: rgba( 255, 255, 255, .05 ); transition: border-color .25s ease-in-out; }
 .b--white-025-hover:hover { border-color: rgba( 255, 255, 255, .025 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-025-hover:focus { border-color: rgba( 255, 255, 255, .025 ); transition: border-color .25s ease-in-out; }
+.b--white-025-hover:active { border-color: rgba( 255, 255, 255, .025 ); transition: border-color .25s ease-in-out; }
 .b--white-0125-hover:hover { border-color: rgba( 255, 255, 255, .0125 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--white-0125-hover:focus { border-color: rgba( 255, 255, 255, .0125 ); transition: border-color .25s ease-in-out; }
+.b--white-0125-hover:active { border-color: rgba( 255, 255, 255, .0125 ); transition: border-color .25s ease-in-out; }
 .b--black-90-hover:hover { border-color: rgba( 0, 0, 0, .9 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-90-hover:focus { border-color: rgba( 0, 0, 0, .9 ); transition: border-color .25s ease-in-out; }
+.b--black-90-hover:active { border-color: rgba( 0, 0, 0, .9 ); transition: border-color .25s ease-in-out; }
 .b--black-80-hover:hover { border-color: rgba( 0, 0, 0, .8 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-80-hover:focus { border-color: rgba( 0, 0, 0, .8 ); transition: border-color .25s ease-in-out; }
+.b--black-80-hover:active { border-color: rgba( 0, 0, 0, .8 ); transition: border-color .25s ease-in-out; }
 .b--black-70-hover:hover { border-color: rgba( 0, 0, 0, .7 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-70-hover:focus { border-color: rgba( 0, 0, 0, .7 ); transition: border-color .25s ease-in-out; }
+.b--black-70-hover:active { border-color: rgba( 0, 0, 0, .7 ); transition: border-color .25s ease-in-out; }
 .b--black-60-hover:hover { border-color: rgba( 0, 0, 0, .6 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-60-hover:focus { border-color: rgba( 0, 0, 0, .6 ); transition: border-color .25s ease-in-out; }
+.b--black-60-hover:active { border-color: rgba( 0, 0, 0, .6 ); transition: border-color .25s ease-in-out; }
 .b--black-50-hover:hover { border-color: rgba( 0, 0, 0, .5 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-50-hover:focus { border-color: rgba( 0, 0, 0, .5 ); transition: border-color .25s ease-in-out; }
+.b--black-50-hover:active { border-color: rgba( 0, 0, 0, .5 ); transition: border-color .25s ease-in-out; }
 .b--black-40-hover:hover { border-color: rgba( 0, 0, 0, .4 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-40-hover:focus { border-color: rgba( 0, 0, 0, .4 ); transition: border-color .25s ease-in-out; }
+.b--black-40-hover:active { border-color: rgba( 0, 0, 0, .4 ); transition: border-color .25s ease-in-out; }
 .b--black-30-hover:hover { border-color: rgba( 0, 0, 0, .3 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-30-hover:focus { border-color: rgba( 0, 0, 0, .3 ); transition: border-color .25s ease-in-out; }
+.b--black-30-hover:active { border-color: rgba( 0, 0, 0, .3 ); transition: border-color .25s ease-in-out; }
 .b--black-20-hover:hover { border-color: rgba( 0, 0, 0, .2 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-20-hover:focus { border-color: rgba( 0, 0, 0, .2 ); transition: border-color .25s ease-in-out; }
+.b--black-20-hover:active { border-color: rgba( 0, 0, 0, .2 ); transition: border-color .25s ease-in-out; }
 .b--black-10-hover:hover { border-color: rgba( 0, 0, 0, .1 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-10-hover:focus { border-color: rgba( 0, 0, 0, .1 ); transition: border-color .25s ease-in-out; }
+.b--black-10-hover:active { border-color: rgba( 0, 0, 0, .1 ); transition: border-color .25s ease-in-out; }
 .b--black-05-hover:hover { border-color: rgba( 0, 0, 0, .05 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-05-hover:focus { border-color: rgba( 0, 0, 0, .05 ); transition: border-color .25s ease-in-out; }
+.b--black-05-hover:active { border-color: rgba( 0, 0, 0, .05 ); transition: border-color .25s ease-in-out; }
 .b--black-025-hover:hover { border-color: rgba( 0, 0, 0, .025 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-025-hover:focus { border-color: rgba( 0, 0, 0, .025 ); transition: border-color .25s ease-in-out; }
+.b--black-025-hover:active { border-color: rgba( 0, 0, 0, .025 ); transition: border-color .25s ease-in-out; }
 .b--black-0125-hover:hover { border-color: rgba( 0, 0, 0, .0125 ); transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--black-0125-hover:focus { border-color: rgba( 0, 0, 0, .0125 ); transition: border-color .25s ease-in-out; }
+.b--black-0125-hover:active { border-color: rgba( 0, 0, 0, .0125 ); transition: border-color .25s ease-in-out; }
 .b--dark-red-hover:hover { border-color: #e7040f; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--dark-red-hover:focus { border-color: #e7040f; transition: border-color .25s ease-in-out; }
+.b--dark-red-hover:active { border-color: #e7040f; transition: border-color .25s ease-in-out; }
 .b--red-hover:hover { border-color: #e66a5c; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--red-hover:focus { border-color: #e66a5c; transition: border-color .25s ease-in-out; }
+.b--red-hover:active { border-color: #e66a5c; transition: border-color .25s ease-in-out; }
 .b--light-red-hover:hover { border-color: #ff725c; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--light-red-hover:focus { border-color: #ff725c; transition: border-color .25s ease-in-out; }
+.b--light-red-hover:active { border-color: #ff725c; transition: border-color .25s ease-in-out; }
 .b--orange-hover:hover { border-color: #ff6300; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--orange-hover:focus { border-color: #ff6300; transition: border-color .25s ease-in-out; }
+.b--orange-hover:active { border-color: #ff6300; transition: border-color .25s ease-in-out; }
 .b--gold-hover:hover { border-color: #ffb700; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--gold-hover:focus { border-color: #ffb700; transition: border-color .25s ease-in-out; }
+.b--gold-hover:active { border-color: #ffb700; transition: border-color .25s ease-in-out; }
 .b--yellow-hover:hover { border-color: #ffc636; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--yellow-hover:focus { border-color: #ffc636; transition: border-color .25s ease-in-out; }
+.b--yellow-hover:active { border-color: #ffc636; transition: border-color .25s ease-in-out; }
 .b--light-yellow-hover:hover { border-color: #fbf1a9; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--light-yellow-hover:focus { border-color: #fbf1a9; transition: border-color .25s ease-in-out; }
+.b--light-yellow-hover:active { border-color: #fbf1a9; transition: border-color .25s ease-in-out; }
 .b--purple-hover:hover { border-color: #5e2ca5; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--purple-hover:focus { border-color: #5e2ca5; transition: border-color .25s ease-in-out; }
+.b--purple-hover:active { border-color: #5e2ca5; transition: border-color .25s ease-in-out; }
 .b--light-purple-hover:hover { border-color: #a463f2; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--light-purple-hover:focus { border-color: #a463f2; transition: border-color .25s ease-in-out; }
+.b--light-purple-hover:active { border-color: #a463f2; transition: border-color .25s ease-in-out; }
 .b--dark-pink-hover:hover { border-color: #d5008f; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--dark-pink-hover:focus { border-color: #d5008f; transition: border-color .25s ease-in-out; }
+.b--dark-pink-hover:active { border-color: #d5008f; transition: border-color .25s ease-in-out; }
 .b--hot-pink-hover:hover { border-color: #ff41b4; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--hot-pink-hover:focus { border-color: #ff41b4; transition: border-color .25s ease-in-out; }
+.b--hot-pink-hover:active { border-color: #ff41b4; transition: border-color .25s ease-in-out; }
 .b--pink-hover:hover { border-color: #ff80cc; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--pink-hover:focus { border-color: #ff80cc; transition: border-color .25s ease-in-out; }
+.b--pink-hover:active { border-color: #ff80cc; transition: border-color .25s ease-in-out; }
 .b--light-pink-hover:hover { border-color: #ffa3d7; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--light-pink-hover:focus { border-color: #ffa3d7; transition: border-color .25s ease-in-out; }
+.b--light-pink-hover:active { border-color: #ffa3d7; transition: border-color .25s ease-in-out; }
 .b--dark-green-hover:hover { border-color: #137752; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--dark-green-hover:focus { border-color: #137752; transition: border-color .25s ease-in-out; }
+.b--dark-green-hover:active { border-color: #137752; transition: border-color .25s ease-in-out; }
 .b--green-hover:hover { border-color: #22d85d; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--green-hover:focus { border-color: #22d85d; transition: border-color .25s ease-in-out; }
+.b--green-hover:active { border-color: #22d85d; transition: border-color .25s ease-in-out; }
 .b--light-green-hover:hover { border-color: #9eebcf; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--light-green-hover:focus { border-color: #9eebcf; transition: border-color .25s ease-in-out; }
+.b--light-green-hover:active { border-color: #9eebcf; transition: border-color .25s ease-in-out; }
 .b--navy-hover:hover { border-color: #001b44; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--navy-hover:focus { border-color: #001b44; transition: border-color .25s ease-in-out; }
+.b--navy-hover:active { border-color: #001b44; transition: border-color .25s ease-in-out; }
 .b--dark-blue-hover:hover { border-color: #00449e; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--dark-blue-hover:focus { border-color: #00449e; transition: border-color .25s ease-in-out; }
+.b--dark-blue-hover:active { border-color: #00449e; transition: border-color .25s ease-in-out; }
 .b--blue-hover:hover { border-color: #179be5; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--blue-hover:focus { border-color: #179be5; transition: border-color .25s ease-in-out; }
+.b--blue-hover:active { border-color: #179be5; transition: border-color .25s ease-in-out; }
 .b--light-blue-hover:hover { border-color: #96ccff; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--light-blue-hover:focus { border-color: #96ccff; transition: border-color .25s ease-in-out; }
+.b--light-blue-hover:active { border-color: #96ccff; transition: border-color .25s ease-in-out; }
 .b--lightest-blue-hover:hover { border-color: #cdecff; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--lightest-blue-hover:focus { border-color: #cdecff; transition: border-color .25s ease-in-out; }
+.b--lightest-blue-hover:active { border-color: #cdecff; transition: border-color .25s ease-in-out; }
 .b--washed-blue-hover:hover { border-color: #f6fffe; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--washed-blue-hover:focus { border-color: #f6fffe; transition: border-color .25s ease-in-out; }
+.b--washed-blue-hover:active { border-color: #f6fffe; transition: border-color .25s ease-in-out; }
 .b--washed-green-hover:hover { border-color: #e8fdf5; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--washed-green-hover:focus { border-color: #e8fdf5; transition: border-color .25s ease-in-out; }
+.b--washed-green-hover:active { border-color: #e8fdf5; transition: border-color .25s ease-in-out; }
 .b--washed-yellow-hover:hover { border-color: #fffceb; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--washed-yellow-hover:focus { border-color: #fffceb; transition: border-color .25s ease-in-out; }
+.b--washed-yellow-hover:active { border-color: #fffceb; transition: border-color .25s ease-in-out; }
 .b--washed-red-hover:hover { border-color: #ffdfdf; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
+.b--washed-red-hover:focus { border-color: #ffdfdf; transition: border-color .25s ease-in-out; }
+.b--washed-red-hover:active { border-color: #ffdfdf; transition: border-color .25s ease-in-out; }
 .b--transparent-hover:hover { border-color: transparent; transition: border-color .25s ease-in-out; }
- { border-color: undefined; transition: border-color .25s ease-in-out; }
-.b--inherit-hover:hover,  { border-color: inherit; transition: border-color .25s ease-in-out; }
+.b--transparent-hover:focus { border-color: transparent; transition: border-color .25s ease-in-out; }
+.b--transparent-hover:active { border-color: transparent; transition: border-color .25s ease-in-out; }
+.b--inherit-hover:hover, .b--inherit-hover:focus, .b--inherit-hover:active { border-color: inherit; transition: border-color .25s ease-in-out; }
 /*
 
    BORDER RADIUS
@@ -1260,7 +1321,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .moon-gray { color: #ccc; }
 .light-gray { color: #e4e9f0; }
 .near-white { color: #f4f4f4; }
-.white { color: #fff; }
+.white { color: #f4f4f4; }
 .dark-red { color: #e7040f; }
 .red { color: #e66a5c; }
 .light-red { color: #ff725c; }
@@ -1317,7 +1378,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-moon-gray { background-color: #ccc; }
 .bg-light-gray { background-color: #e4e9f0; }
 .bg-near-white { background-color: #f4f4f4; }
-.bg-white { background-color: #fff; }
+.bg-white { background-color: #f4f4f4; }
 .bg-transparent { background-color: transparent; }
 .bg-dark-red { background-color: #e7040f; }
 .bg-red { background-color: #e66a5c; }
@@ -1373,8 +1434,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-light-gray:focus { color: #e4e9f0; }
 .hover-near-white:hover { color: #f4f4f4; }
 .hover-near-white:focus { color: #f4f4f4; }
-.hover-white:hover { color: #fff; }
-.hover-white:focus { color: #fff; }
+.hover-white:hover { color: #f4f4f4; }
+.hover-white:focus { color: #f4f4f4; }
 .hover-black-90:hover { color: rgba( 0, 0, 0, .9 ); }
 .hover-black-90:focus { color: rgba( 0, 0, 0, .9 ); }
 .hover-black-80:hover { color: rgba( 0, 0, 0, .8 ); }
@@ -1432,8 +1493,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-light-gray:focus { background-color: #e4e9f0; }
 .hover-bg-near-white:hover { background-color: #f4f4f4; }
 .hover-bg-near-white:focus { background-color: #f4f4f4; }
-.hover-bg-white:hover { background-color: #fff; }
-.hover-bg-white:focus { background-color: #fff; }
+.hover-bg-white:hover { background-color: #f4f4f4; }
+.hover-bg-white:focus { background-color: #f4f4f4; }
 .hover-bg-transparent:hover { background-color: transparent; }
 .hover-bg-transparent:focus { background-color: transparent; }
 .hover-bg-black-90:hover { background-color: rgba( 0, 0, 0, .9 ); }

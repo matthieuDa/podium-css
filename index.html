@@ -21,17 +21,13 @@
     
     <div class="bg-light-gray near-black ma0 pv5-ns pv5">
       <div class="w-70 center">
-        
-      <div class="f1-ns f3 mb5-ns mb4 lh-solid-l lh-title">
-        This is a CSS library based on <a class="green no-underline dib underline-hover" href="tachyons.io">Tachyons</a>.
+        <div class="f1-ns f3 mb5-ns mb4 lh-solid-l lh-title">
+          This is a CSS library based on <a class="green no-underline dib underline-hover" href="tachyons.io">Tachyons</a>.
+        </div>
+        <div class="f1-ns f3 lh-solid-l lh-title">
+          Flexible enough to be used in any of the Podium apps.
+        </div>
       </div>
-      <div class="f1-ns f3 lh-solid-l lh-title">
-        Flexible enough to be used in
-        any of the Podium apps.
-      </div>
-      
-
-    </div>
     </div>
     <div class="bg-white near-black ma0 pv6-ns pv5">
       <div class="w-70 center sans-serif">
@@ -41,35 +37,49 @@
         
         <h2 class="f1 sans ma0 mb2">Buttons</h2>
         
-        <h3 class="f2 sans mb2">Primary</h2>
+        <h3 class="f2 sans mb2">Primary</h3>
         <div><a class="f7 pointer grow no-underline br-pill ph3 pv2 mb2 dib white bg-green">Action</a></div>
         <div><a class="f5 pointer grow no-underline br-pill ph3 pv2 mb2 dib white bg-green">Action</a></div>
         <div><a class="f3 pointer grow no-underline br-pill ph4 pv2 mb2 dib white bg-green">Action</a></div>
         
-        <h3 class="f2 sans mb2">Secondary</h2>
+        <h3 class="f2 sans mb2">Secondary</h3>
         <div><a class="f7 pointer grow no-underline br-pill ba bw1 ph3 pv2 mb2 dib green">Action</a></div>
         <div><a class="f5 pointer grow no-underline br-pill ba bw1 ph3 pv2 mb2 dib green">Action</a></div>
         <div><a class="f3 pointer grow no-underline br-pill ba bw1 ph4 pv2 mb2 dib green">Action</a></div>
         
-        <h3 class="f2 sans mb2">Tertiary</h2>
+        <h3 class="f2 sans mb2">Tertiary</h3>
         <div><a class="f7 pointer grow no-underline br-pill ba bw1 ph3 pv2 mb2 dib silver">Action</a></div>
         <div><a class="f5 pointer grow no-underline br-pill ba bw1 ph3 pv2 mb2 dib silver">Action</a></div>
         <div><a class="f3 pointer grow no-underline br-pill ba bw1 ph4 pv2 mb2 dib silver">Action</a></div>
         
         
-        <h3 class="f2 sans mb2">Disabled</h2>
+        <h3 class="f2 sans mb2">Disabled</h3>
         <div><a class="f7 no-underline br-pill ba bw1 ph3 pv2 mb2 dib light-silver bg-light-gray">Action</a></div>
         <div><a class="f5 no-underline br-pill ba bw1 ph3 pv2 mb2 dib light-silver bg-light-gray">Action</a></div>
         <div><a class="f3 no-underline br-pill ba bw1 ph4 pv2 mb2 dib light-silver bg-light-gray">Action</a></div>
             
-        <h3 class="f2 sans mb2">Box</h2>
+        <h3 class="f2 sans mb2">Box</h3>
         <a class="f5 fw6 pointer db ph3 pv3 shadow-hover shadow-4 blue dim mv3 w-50 br2">Action</a>
         <a class="f5 fw6 pointer db ph3 pv3 shadow-hover shadow-4 blue dim mv3 w-50 br2">Action <span class="fr ma0">☰</span></a>
         
-        <h3 class="f2 sans mb2">Text Input</h2>
-        <input type="text" name="" value="" class="f4 input-reset bg-light-gray bw1 b--transparent b--blue-hover b--solid br2 pa2 hover-bg-near-white">
+        <h3 class="f2 sans mb2">Text Input</h3>
+        <input type="text" value="" class="f4 input-reset bg-light-gray bw1 b--transparent b--blue-hover b--solid br2 pa2 hover-bg-near-white outline-0">
       </div>
 
   </div>
+  <script type="javascript" src="https://unpkg.com/vue"> </script>
+  <script type="text/javascript" charset="utf-8">
+    var app5 = new Vue({
+      el: '#app-5',
+      data: {
+        message: 'Hello Vue.js!'
+      },
+      methods: {
+        reverseMessage: function () {
+          this.message = this.message.split('').reverse().join('')
+        }
+      }
+    })
+  </script>
   </body>
 </html>
