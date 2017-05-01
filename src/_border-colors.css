@@ -20,14 +20,14 @@
 
 .b--black {        border-color: var(--black); }
 .b--near-black {   border-color: var(--near-black); }
-.b--dark-gray {    border-color: var(--dark-gray); }
+.b--mine-shaft {    border-color: var(--mine-shaft); }
 .b--mid-gray {     border-color: var(--mid-gray); }
 .b--gray {         border-color: var(--gray); }
-.b--silver {       border-color: var(--silver); }
-.b--light-silver { border-color: var(--light-silver); }
-.b--moon-gray {    border-color: var(--moon-gray); }
-.b--light-gray {   border-color: var(--light-gray); }
-.b--near-white {   border-color: var(--near-white); }
+.b--jumbo {       border-color: var(--jumbo); }
+.b--light-jumbo { border-color: var(--light-jumbo); }
+.b--iron {    border-color: var(--iron); }
+.b--mystic {   border-color: var(--mystic); }
+.b--white-smoke {   border-color: var(--white-smoke); }
 .b--white {        border-color: var(--white); }
 
 .b--white-90 {   border-color: var(--white-90); }
@@ -100,10 +100,10 @@
      border-color: var(--near-black);
      transition: border-color .25s ease-in-out;
    }
-.b--dark-gray-hover:hover,
-.b--dark-gray-hover:focus,
-.b--dark-gray-hover:active {
-      border-color: var(--dark-gray);
+.b--mine-shaft-hover:hover,
+.b--mine-shaft-hover:focus,
+.b--mine-shaft-hover:active {
+      border-color: var(--mine-shaft);
       transition: border-color .25s ease-in-out;
     }
 .b--mid-gray-hover:hover,
@@ -118,34 +118,34 @@
            border-color: var(--gray);
            transition: border-color .25s ease-in-out;
          }
-.b--silver-hover:hover,
-.b--silver-hover:focus,
-.b--silver-hover:active {
-         border-color: var(--silver);
+.b--jumbo-hover:hover,
+.b--jumbo-hover:focus,
+.b--jumbo-hover:active {
+         border-color: var(--jumbo);
          transition: border-color .25s ease-in-out;
        }
-.b--light-silver-hover:hover,
-.b--light-silver-hover:focus,
-.b--light-silver-hover:active {
-   border-color: var(--light-silver);
+.b--light-jumbo-hover:hover,
+.b--light-jumbo-hover:focus,
+.b--light-jumbo-hover:active {
+   border-color: var(--light-jumbo);
    transition: border-color .25s ease-in-out;
  }
-.b--moon-gray-hover:hover,
-.b--moon-gray-hover:focus,
-.b--moon-gray-hover:active {
-      border-color: var(--moon-gray);
+.b--iron-hover:hover,
+.b--iron-hover:focus,
+.b--iron-hover:active {
+      border-color: var(--iron);
       transition: border-color .25s ease-in-out;
     }
-.b--light-gray-hover:hover,
-.b--light-gray-hover:focus,
-.b--light-gray-hover:active {
-     border-color: var(--light-gray);
+.b--mystic-hover:hover,
+.b--mystic-hover:focus,
+.b--mystic-hover:active {
+     border-color: var(--mystic);
      transition: border-color .25s ease-in-out;
    }
-.b--near-white-hover:hover,
-.b--near-white-hover:focus,
-.b--near-white-hover:active {
-     border-color: var(--near-white);
+.b--white-smoke-hover:hover,
+.b--white-smoke-hover:focus,
+.b--white-smoke-hover:active {
+     border-color: var(--white-smoke);
      transition: border-color .25s ease-in-out;
    }
 .b--white-hover:hover,

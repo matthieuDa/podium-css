@@ -13,16 +13,16 @@
 :root {
   --black: #000;
   --near-black: #111;
-  --dark-gray:#333;
+  --mine-shaft:#333;
   --mid-gray:#555;
   --gray: #666;
-  --silver: #999;
-  --light-silver: #aaa;
-  --moon-gray: #ccc;
-  --light-gray: #e4e9f0;
-  --near-white: #f4f4f4;
-  --white: #f4f4f4;
-
+  --jumbo: #878787;
+  --light-jumbo: #aaa;
+  --iron: #ccc;
+  --mystic: #e4e9f0;
+  --white-smoke: #f5f5f7;
+  --white: white;
+  
   --transparent:transparent;
 
  --black-90: rgba(0,0,0,.9);
@@ -52,11 +52,11 @@
  --white-0125: rgba(255,255,255,.0125);
 
   --dark-red:  #e7040f;
-  --red:  #e66a5c;
+  --red:  #e66a5c; /* dusk */
   --light-red:  #ff725c;
   --orange:  #ff6300;
   --gold:  #ffb700;
-  --yellow:  #ffc636;
+  --yellow:  #ffc636; /* goldfish */
   --light-yellow:  #fbf1a9;
   --purple:  #5e2ca5;
   --light-purple:  #a463f2;
@@ -65,11 +65,11 @@
   --pink:  #ff80cc;
   --light-pink:  #ffa3d7;
   --dark-green:  #137752;
-  --green:  #22d85d;
+  --green:  #22d85d; /* Podium Brand color */
   --light-green:  #9eebcf;
   --navy:  #001b44;
   --dark-blue:  #00449e;
-  --blue:  #179be5;
+  --blue:  #179be5; /* bear-lake */
   --light-blue:  #96ccff;
   --lightest-blue:  #cdecff;
   --washed-blue:  #f6fffe;
