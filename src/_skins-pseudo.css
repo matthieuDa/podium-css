@@ -11,22 +11,22 @@
 .hover-black:focus { color: var(--black); }
 .hover-near-black:hover, 
 .hover-near-black:focus { color: var(--near-black); }
-.hover-dark-gray:hover, 
-.hover-dark-gray:focus { color: var(--dark-gray); }
+.hover-mine-shaft:hover, 
+.hover-mine-shaft:focus { color: var(--mine-shaft); }
 .hover-mid-gray:hover, 
 .hover-mid-gray:focus { color: var(--mid-gray); }
 .hover-gray:hover, 
 .hover-gray:focus { color: var(--gray); }
-.hover-silver:hover, 
-.hover-silver:focus { color: var(--silver); }
-.hover-light-silver:hover, 
-.hover-light-silver:focus { color: var(--light-silver); }
-.hover-moon-gray:hover, 
-.hover-moon-gray:focus { color: var(--moon-gray); }
-.hover-light-gray:hover, 
-.hover-light-gray:focus { color: var(--light-gray); }
-.hover-near-white:hover, 
-.hover-near-white:focus { color: var(--near-white); }
+.hover-jumbo:hover, 
+.hover-jumbo:focus { color: var(--jumbo); }
+.hover-light-jumbo:hover, 
+.hover-light-jumbo:focus { color: var(--light-jumbo); }
+.hover-iron:hover, 
+.hover-iron:focus { color: var(--iron); }
+.hover-mystic:hover, 
+.hover-mystic:focus { color: var(--mystic); }
+.hover-white-smoke:hover, 
+.hover-white-smoke:focus { color: var(--white-smoke); }
 .hover-white:hover, 
 .hover-white:focus { color: var(--white); }
 
@@ -73,22 +73,22 @@
 .hover-bg-black:focus { background-color: var(--black); }
 .hover-bg-near-black:hover, 
 .hover-bg-near-black:focus { background-color: var(--near-black); }
-.hover-bg-dark-gray:hover, 
-.hover-bg-dark-gray:focus { background-color: var(--dark-gray); }
-.hover-bg-dark-gray:focus, 
+.hover-bg-mine-shaft:hover, 
+.hover-bg-mine-shaft:focus { background-color: var(--mine-shaft); }
+.hover-bg-mine-shaft:focus, 
 .hover-bg-mid-gray:hover { background-color: var(--mid-gray); }
 .hover-bg-gray:hover, 
 .hover-bg-gray:focus { background-color: var(--gray); }
-.hover-bg-silver:hover, 
-.hover-bg-silver:focus { background-color: var(--silver); }
-.hover-bg-light-silver:hover, 
-.hover-bg-light-silver:focus { background-color: var(--light-silver); }
-.hover-bg-moon-gray:hover, 
-.hover-bg-moon-gray:focus { background-color: var(--moon-gray); }
-.hover-bg-light-gray:hover, 
-.hover-bg-light-gray:focus { background-color: var(--light-gray); }
-.hover-bg-near-white:hover, 
-.hover-bg-near-white:focus { background-color: var(--near-white); }
+.hover-bg-jumbo:hover, 
+.hover-bg-jumbo:focus { background-color: var(--jumbo); }
+.hover-bg-light-jumbo:hover, 
+.hover-bg-light-jumbo:focus { background-color: var(--light-jumbo); }
+.hover-bg-iron:hover, 
+.hover-bg-iron:focus { background-color: var(--iron); }
+.hover-bg-mystic:hover, 
+.hover-bg-mystic:focus { background-color: var(--mystic); }
+.hover-bg-white-smoke:hover, 
+.hover-bg-white-smoke:focus { background-color: var(--white-smoke); }
 .hover-bg-white:hover, 
 .hover-bg-white:focus { background-color: var(--white); }
 .hover-bg-transparent:hover, 

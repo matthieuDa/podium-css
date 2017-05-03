@@ -10,20 +10,20 @@
     border-spacing: 0;
 }
 
-.striped--light-silver:nth-child(odd) {
-  background-color: var(--light-silver);
+.striped--light-jumbo:nth-child(odd) {
+  background-color: var(--light-jumbo);
 }
 
-.striped--moon-gray:nth-child(odd) {
-  background-color: var(--moon-gray);
+.striped--iron:nth-child(odd) {
+  background-color: var(--iron);
 }
 
-.striped--light-gray:nth-child(odd) {
-  background-color: var(--light-gray);
+.striped--mystic:nth-child(odd) {
+  background-color: var(--mystic);
 }
 
-.striped--near-white:nth-child(odd) {
-  background-color: var(--near-white);
+.striped--white-smoke:nth-child(odd) {
+  background-color: var(--white-smoke);
 }
 
 .stripe-light:nth-child(odd) {
