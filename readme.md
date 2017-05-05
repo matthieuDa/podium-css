@@ -1,4 +1,4 @@
-# TACHYONS
+# PODIUM CSS (TACHYONS fork)
 
 Functional css for humans.
 

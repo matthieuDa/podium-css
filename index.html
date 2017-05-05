@@ -102,7 +102,7 @@
           There are only a small amount of defined colors in Podium's color pallete.
         </p>
         
-        <div class="">
+        <div class="mw8">
           <div class="fl w-30-l w-50-m w-100 dib">
             <div class="bg-blue tc pv4">
               .bg-blue
@@ -152,7 +152,6 @@
         <br class="cb" />
         
       <h3 id="colors" class="f2 sans ma0 mb1 mt5">Text Colors</h3>
-
       
       <table class="mt4 w-100">
         <tbody><tr>
@@ -174,7 +173,154 @@
           <td class="tc gray f6 pl2 bt    b--black-10 pt1">.yellow</td>
         </tr>
       </tbody></table>
+
+      <h3 id="colors" class="f2 sans ma0 mb1 mt5">Layout Boxes example</h3>
+
+      <p class="f3 measure lh-copy mv2">
+        It's easy to create grids with podium-css. Note these don't collapse by default, but it's easy to do by appending <code class=>-ns</code> to turn off classes on mobile (or <code>-m / -l</code> to turn off on middle and large size divices respectively)
+      </p>
+
+      <div class="mv5">
+
+        <div class="ph2-ns">
+          <div class="fl w-100 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-100</code></div>
+          </div>
+          <div class="fl w-80 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-80</code></div>
+          </div>
+          <div class="fl w-20 pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-20</code></div>
+          </div>
+          <div class="fl w-75 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-75</code></div>
+          </div>
+          <div class="fl w-25 pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-25</code></div>
+          </div>
+          <div class="fl w-70 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-70</code></div>
+          </div>
+          <div class="fl w-30 pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-30</code></div>
+          </div>
+          <div class="fl w-60 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-60</code></div>
+          </div>
+          <div class="fl w-40 pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-40</code></div>
+          </div>
+          <div class="fl w-50 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-50</code></div>
+          </div>
+          <div class="fl w-50 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-50</code></div>
+          </div>
+          <div class="fl w-third pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-third</code></div>
+          </div>
+          <div class="fl w-third pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-third</code></div>
+          </div>
+          <div class="fl w-third pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-third</code></div>
+          </div>
+          <div class="fl w-third pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>fl w-third</code></div>
+          </div>
+          <div class="fl w-two-thirds pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>fl w-two-thirds</code></div>
+          </div>
+          <div class="fl w-25 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-25</code></div>
+          </div>
+          <div class="fl w-25 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-25 </code></div>
+          </div>
+          <div class="fl w-25 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-25 </code></div>
+          </div>
+          <div class="fl w-25 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-25 </code></div>
+          </div>
+          <div class="fl w-20 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+          </div>
+          <div class="fl w-20 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+          </div>
+          <div class="fl w-20 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+          </div>
+          <div class="fl w-20 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+          </div>
+          <div class="fl w-20 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+          </div>
+        </div>
+
+        <br class="cb" />
+        <p class="tc mt4 mb0 b i">
+          *don't forget to clear both (<code>cb</code>) here*
+        </p>
+
+      </div>
+
+
+      <h3 id="colors" class="f2 sans ma0 mb1 mt5">Colapsing Layout</h3>
+
+      <p class="f3 measure lh-copy mt3">
+        This shows how to make a layout that collapses as the screen get's smaller
+      </p>
+
+      <div class="dn db-l b i">
+        Your View is <b>LARGE</b> (laptop)
+      </div>
+
+      <div class="dn db-m b i">
+        Your View is <b>MEDIUM</b> (tablet)
+      </div>
+
+      <div class="dn-ns b i">
+        Your View is <b>SMALL</b> (phone)
+      </div>
       
+      <div class="mv5">
+        <div class="ph2-ns">
+
+          <div class="fl w-75-ns w-100 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>w-75-ns w-100</code></div>
+          </div>
+          <div class="fl w-25-ns w-100 pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>w-25-ns w-100</code></div>
+          </div>
+
+          <div class="fl w-third-ns w-100 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
+          </div>
+          <div class="fl w-third-ns w-100 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
+          </div>
+          <div class="fl w-third-ns w-100 pa2">
+            <div class="bg-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
+          </div>
+
+          <div class="fl w-third-ns w-100 pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>w-third-ns w-100</code></div>
+          </div>
+          <div class="fl w-two-thirds-ns w-100 pa2">
+            <div class="bg-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>w-two-thirds-ns w-100</code></div>
+          </div>
+
+        </div>
+
+        <br class="cb" />
+        <p class="tc mt4 mb0 b i">
+          *don't forget to clear both (<code>cb</code>) here*
+        </p>
+
+      </div>
     </div>
       
       
@@ -229,9 +375,11 @@
           <input type="text" value="" class="f4 input-reset bg-mystic bw1 b--transparent b--blue-hover b--solid br2 pa2 outline-0">
         </div>
 
+        <h3 class="f2 sans mb2">Review Invite modal</h3>
+
         <div class="mv5">
-          <div class="b--mystic center w-80-m w-40-l pa4 ba br2 shadow-4">
-            <p class="gray f3 fw6 mt0 mb3">Send Review Invitation</p>
+          <div class="b--mystic center w-80-ns w-100 mw6 ph4 pv3 ph5-ns pv4-ns ba br2 shadow-4 -sizing">
+            <p class="black f3 fw6 mb4 tc">Send Review Invite</p>
             <label for="input-name" class="gray f5 db fw6 mb2">Customer Name</label>
             <input
               placeholder="Customer Name"
@@ -245,7 +393,9 @@
               type="text"
               name="input-name"
               value=""
-              class="f4 input-reset bg-mystic bw1 b--transparent b--blue-hover b--solid br2 pa2 outline-0 w-100">
+              class="f4 input-reset bg-mystic bw1 b--transparent b--blue-hover b--solid br2 pa2 outline-0 w-100" />
+
+              <input type="submit" value="Send Invite" href="#0" class="f4 pointer grow outline-0 no-underline br-pill ph4 pv3 mb2 dib white bg-green bw0 tc mv4 w-100">
           </div>
         </div>
       </div>
