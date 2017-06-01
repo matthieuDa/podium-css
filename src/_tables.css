@@ -10,8 +10,8 @@
     border-spacing: 0;
 }
 
-.striped--light-jumbo:nth-child(odd) {
-  background-color: var(--light-jumbo);
+.striped--anti-flash-white:nth-child(odd) {
+  background-color: var(--anti-flash-white);
 }
 
 .striped--iron:nth-child(odd) {

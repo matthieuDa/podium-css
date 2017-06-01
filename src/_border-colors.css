@@ -24,7 +24,7 @@
 .b--mid-gray {     border-color: var(--mid-gray); }
 .b--gray {         border-color: var(--gray); }
 .b--jumbo {       border-color: var(--jumbo); }
-.b--light-jumbo { border-color: var(--light-jumbo); }
+.b--anti-flash-white { border-color: var(--anti-flash-white); }
 .b--iron {    border-color: var(--iron); }
 .b--mystic {   border-color: var(--mystic); }
 .b--white-smoke {   border-color: var(--white-smoke); }
@@ -124,10 +124,10 @@
          border-color: var(--jumbo);
          transition: border-color .25s ease-in-out;
        }
-.b--light-jumbo-hover:hover,
-.b--light-jumbo-hover:focus,
-.b--light-jumbo-hover:active {
-   border-color: var(--light-jumbo);
+.b--anti-flash-white-hover:hover,
+.b--anti-flash-white-hover:focus,
+.b--anti-flash-white-hover:active {
+   border-color: var(--anti-flash-white);
    transition: border-color .25s ease-in-out;
  }
 .b--iron-hover:hover,

@@ -38,7 +38,7 @@
 .mid-gray {      color: var(--mid-gray); }
 .gray {          color: var(--gray); }
 .jumbo  {       color: var(--jumbo); }
-.light-jumbo {  color: var(--light-jumbo); }
+.anti-flash-white {  color: var(--anti-flash-white); }
 .iron {     color: var(--iron); }
 .mystic {    color: var(--mystic); }
 .white-smoke {    color: var(--white-smoke); }
@@ -101,7 +101,7 @@
 .bg-mid-gray {      background-color: var(--mid-gray); }
 .bg-gray {          background-color: var(--gray); }
 .bg-jumbo  {       background-color: var(--jumbo); }
-.bg-light-jumbo {  background-color: var(--light-jumbo); }
+.bg-anti-flash-white {  background-color: var(--anti-flash-white); }
 .bg-iron {     background-color: var(--iron); }
 .bg-mystic {    background-color: var(--mystic); }
 .bg-white-smoke {    background-color: var(--white-smoke); }

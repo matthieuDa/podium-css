@@ -19,8 +19,8 @@
 .hover-gray:focus { color: var(--gray); }
 .hover-jumbo:hover, 
 .hover-jumbo:focus { color: var(--jumbo); }
-.hover-light-jumbo:hover, 
-.hover-light-jumbo:focus { color: var(--light-jumbo); }
+.hover-anti-flash-white:hover, 
+.hover-anti-flash-white:focus { color: var(--anti-flash-white); }
 .hover-iron:hover, 
 .hover-iron:focus { color: var(--iron); }
 .hover-mystic:hover, 
@@ -81,8 +81,8 @@
 .hover-bg-gray:focus { background-color: var(--gray); }
 .hover-bg-jumbo:hover, 
 .hover-bg-jumbo:focus { background-color: var(--jumbo); }
-.hover-bg-light-jumbo:hover, 
-.hover-bg-light-jumbo:focus { background-color: var(--light-jumbo); }
+.hover-bg-anti-flash-white:hover, 
+.hover-bg-anti-flash-white:focus { background-color: var(--anti-flash-white); }
 .hover-bg-iron:hover, 
 .hover-bg-iron:focus { background-color: var(--iron); }
 .hover-bg-mystic:hover, 
