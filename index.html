@@ -12,17 +12,49 @@
     <link rel="stylesheet" href="css/tachyons.css">
   </head>
   <body class="ma0 pv0 avenir">
-    <div class="bg-green washed-green ma0 pt7-n pt6 pb5">
+    <div class="bg-navy washed-green ma0 pt7-n pt6 pb5">
       <div class="w-70-ns w-80 center measure">
-        <h1 class="f1-ns f2 sans ma0 fw-1 tracked-mega ">PODIUM CSS</h1>
+        <h1 class="f1-ns f2 sans ma0 fw-1 tracked-mega ">PODIUM <span class="green">CSS</span></h1>
       </div>
     </div>
 
     <div class="bg-anti-flash-white near-black ma0 pv5-ns pv5">
       <div class="w-70-ns w-80 center f3-ns f4 lh-copy measure">
         <div>
-          This is a CSS library based on <a class="green no-underline dib underline-hover" href="tachyons.io">Tachyons</a> flexible enough to be used in any of the Podium apps.
+          This is a CSS library based on <a class="green no-underline dib underline-hover" href="http://tachyons.io">Tachyons</a> flexible enough to be used in any of the Podium apps.
         </div>
+
+        <div>
+          <h2>
+            Get Started
+          </h2>
+          <p>This is the basic tag you need to get started</p>
+          <xmp class="monospace f5 db bg-white black tl br2 fw0 ph3">
+<head>
+  <link href="https://podium.github.io/podium-css/css/tachyons.css" rel="stylesheet" />
+</head>
+          </xmp>
+
+          <p>
+            For a responseive template this should do the trick
+          </p>
+
+          <xmp class="monospace f5 db ph3 bg-white black tl br2 fw0">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> PodiumCSS Template </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  </head>
+  <body>
+    <div class="f1 red">Big Red Text</div>
+  </body>
+</html>
+          </xmp>
+
+        </div>
+
         <h2 id="faq">FAQ</h2>
 
         <h3> Why Does this Exist? </h3>
@@ -42,31 +74,56 @@
            incrementally</span>. For instance you could just use the spacing (margin
            and padding) classes and nothing else.
          </div>
-         
+
+         <p>Not to mention I think you'll find it much faster to develop things
+         with PodiumCSS than any other CSS solution.</p>
+
         <h3> Why not CSS modules / Styled components? </h3>
-        
-        <div class="mt4">
+
+        <p>
           There's nothing stopping you from using coponent level css but the great
-          thing about Podium CSS is <span class="b">it's just css</span> so it can be used
+          thing about Podium CSS is <strong>it's just css</strong> so it can be used
           in any context such as React, a serverside template, Wordpress (bless your
           soul) or a plain HTML mockup like this one! Consistency everywhere.
-        </div>
-        <div class="mt4">
-          Plus it's just faster to type <code class="pa1 bg-white f4 br2">.mt2</code>
+        </p>
+        <p>
+          Plus it's just faster to type <code class="pa1 bg-iron f4 br2">.mt2</code>
           when you <i>just need some margin on the top</i> (that's consistent
           with the rest of the design) And don't want to think up a good name.
-        </div>
+        </p>
+        <p>
+          The last reason is because it's just a tool that is far less power. Most CSS
+          helpers are <em>adding</em> functionality and complexity to CSS. Tachyons
+          is about removing it. Think of it as <strong>CSS, the
+          good parts</strong>
+        </p>
 
         <h3> Does this replace PodiumUI? </h3>
         <div>
           No. In fact it's a compliment to it (or any component system)! The best
           way to remove the duplication of longer class names is to encapsolate it
-          into a component.
+          into a component or variable.
         </div>
+
+        <h3> How do I memorize all these names? </h3>
+        <p>
+          You can inspect any element on this page, then look at the definitions
+          of the css in the css sidebar.</p>
+
+        <p>
+          The main way I learn is by just pushing  &#x2318;-F
+          on the <a href="http://tachyons.io/docs/table-of-styles/">table of styles</a>
+          to find the CSS selector you need. PodiumCSS remains pretty close to Tachyons
+          minus colors mostly.
+        </p>
+        <p>
+          Also make sure to look at the <a href="http://tachyons.io/docs/">Tachyons Docs</a>.
+        </p>
+
       </div>
 
     </div>
-    <div class="bg-white-smoke near-black ma0 pv6-ns pv5">
+    <div class="bg-white near-black ma0 pv6-ns pv5">
       <div class="w-70-ns w-80 center">
         <h2 id="colors" class="f1 sans ma0 mb1">Font Sizes</h2>
         <p class="f3 measure lh-copy mv2">
@@ -95,13 +152,13 @@
             <td class="tc gray f6 pl2 bt    b--black-10 pt1">f6: .875rem (14px)</td>
           </tr>
         </tbody></table>
-        
+
         <h2 id="colors" class="f1 sans ma0 mb1 mt5">Colors</h2>
-        
+
         <p class="f3 measure lh-copy mv2">
           There are only a small amount of defined colors in Podium's color pallete.
         </p>
-        
+
         <div class="mw8">
           <div class="fl w-30-l w-50-m w-100 dib">
             <div class="bg-blue tc pv4">
@@ -118,9 +175,9 @@
               .bg-red
             </div>
           </div>
-          <div class="fl w-30-l w-50-m w-100 dib cr">
-            <div class="bg-jumbo tc pv4">
-              .bg-jumbo
+          <div class="fl w-30-l w-50-m w-100 dib">
+            <div class="bg-mystic tc pv4">
+              .bg-mystic
             </div>
           </div>
           <div class="fl w-30-l w-50-m w-100 dib">
@@ -129,13 +186,13 @@
             </div>
           </div>
           <div class="fl w-30-l w-50-m w-100 dib">
-            <div class="bg-mystic tc pv4">
-              .bg-mystic
-            </div>
-          </div>
-          <div class="fl w-30-l w-50-m w-100 dib">
             <div class="bg-white-smoke tc pv4">
               .bg-white-smoke
+            </div>
+          </div>
+          <div class="fl w-30-l w-50-m w-100 dib cr">
+            <div class="bg-jumbo tc pv4">
+              .bg-jumbo
             </div>
           </div>
           <div class="fl w-30-l w-50-m w-100 dib">
@@ -151,14 +208,21 @@
 
           <div class="fl w-30-l w-50-m w-100 dib">
             <div class="bg-black tc pv4 white">
-              .black
+              .bg-black
             </div>
           </div>
+
+          <div class="fl w-30-l w-50-m w-100 dib">
+            <div class="bg-white tc pv4">
+              .bg-white
+            </div>
+          </div>
+
         </div>
         <br class="cb" />
-        
+
       <h3 id="colors" class="f2 sans ma0 mb1 mt5">Text Colors</h3>
-      
+
       <table class="mt4 w-100">
         <tbody><tr>
           <td class="tc f1 br b--black-10 v-base black">A</td>
@@ -190,79 +254,79 @@
 
         <div class="ph2-ns">
           <div class="fl w-100 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-100</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-100</code></div>
           </div>
           <div class="fl w-80 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-80</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-80</code></div>
           </div>
           <div class="fl w-20 pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-20</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-20</code></div>
           </div>
           <div class="fl w-75 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-75</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-75</code></div>
           </div>
           <div class="fl w-25 pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-25</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-25</code></div>
           </div>
           <div class="fl w-70 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-70</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-70</code></div>
           </div>
           <div class="fl w-30 pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-30</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-30</code></div>
           </div>
           <div class="fl w-60 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-60</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-60</code></div>
           </div>
           <div class="fl w-40 pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-40</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate no-wrap"><code>fl w-40</code></div>
           </div>
           <div class="fl w-50 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-50</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-50</code></div>
           </div>
           <div class="fl w-50 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-50</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-50</code></div>
           </div>
           <div class="fl w-third pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-third</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-third</code></div>
           </div>
           <div class="fl w-third pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-third</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-third</code></div>
           </div>
           <div class="fl w-third pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-third</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-third</code></div>
           </div>
           <div class="fl w-third pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>fl w-third</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>fl w-third</code></div>
           </div>
           <div class="fl w-two-thirds pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>fl w-two-thirds</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>fl w-two-thirds</code></div>
           </div>
           <div class="fl w-25 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-25</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-25</code></div>
           </div>
           <div class="fl w-25 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-25 </code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-25 </code></div>
           </div>
           <div class="fl w-25 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-25 </code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-25 </code></div>
           </div>
           <div class="fl w-25 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-25 </code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-25 </code></div>
           </div>
           <div class="fl w-20 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-20 </code></div>
           </div>
           <div class="fl w-20 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-20 </code></div>
           </div>
           <div class="fl w-20 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-20 </code></div>
           </div>
           <div class="fl w-20 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-20 </code></div>
           </div>
           <div class="fl w-20 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>fl w-20 </code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>fl w-20 </code></div>
           </div>
         </div>
 
@@ -291,32 +355,32 @@
       <div class="dn-ns b i">
         Your View is <b>SMALL</b> (phone)
       </div>
-      
+
       <div class="mv5">
         <div class="ph2-ns">
 
           <div class="fl w-75-ns w-100 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>w-75-ns w-100</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>w-75-ns w-100</code></div>
           </div>
           <div class="fl w-25-ns w-100 pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate no-wrap"><code>w-25-ns w-100</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate no-wrap"><code>w-25-ns w-100</code></div>
           </div>
 
           <div class="fl w-third-ns w-100 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
           </div>
           <div class="fl w-third-ns w-100 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
           </div>
           <div class="fl w-third-ns w-100 pa2">
-            <div class="bg-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4"><code>w-third-ns w-100</code></div>
           </div>
 
           <div class="fl w-third-ns w-100 pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>w-third-ns w-100</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>w-third-ns w-100</code></div>
           </div>
           <div class="fl w-two-thirds-ns w-100 pa2">
-            <div class="bg-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>w-two-thirds-ns w-100</code></div>
+            <div class="bg-anti-flash-white tc pv4 shadow-4 truncate w-100 no-wrap"><code>w-two-thirds-ns w-100</code></div>
           </div>
 
         </div>
@@ -328,29 +392,29 @@
 
       </div>
     </div>
-      
-      
+
+
     </div>
-    <div class="bg-white near-black ma0 pv6-ns pv5">
+    <div class="bg-anti-flash-white near-black ma0 pv6-ns pv5">
       <div class="w-70-ns w-80 center">
 
         <h2 id="components" class="f1 sans ma0 mb1">Components</h2>
-        
+
         <p class="f3 measure lh-copy mv2">
           This basically shows examples of how different components on the page
           should look in Podium. They are plain HTML so they will work in any
           contest server-side or client-side.
         </p>
 
-      
+
         <h2 id="buttons" class="f2 sans ma0 mt4 mb2">Buttons</h2>
-        
+
         <p class="f4 measure lh-copy">
           These are various different buttons that may exist in the app. Make
           sure that you try clicking on them and hitting tab to select them to
           see their behavior.
         </p>
-        
+
         <h3 class="f2 sans mb2">Primary</h3>
         <div><a href="#0" class="f7 pointer grow outline-0 no-underline br-pill ph3 pv2 mb2 dib white bg-green">Action</a></div>
         <div><a href="#0" class="f5 pointer grow outline-0 no-underline br-pill ph3 pv2 mb2 dib white bg-green">Action</a></div>
@@ -373,8 +437,8 @@
         <div><a class="f3 no-underline br-pill ba bw1 ph4 pv2 mb2 dib anti-flash-white bg-mystic">Action</a></div>
 
         <h3 class="f2 sans mb2">Box</h3>
-        <a href="#0" class="f5 fw6 pointer outline-0 no-underline db ph3 pv3 shadow-hover shadow-4 blue dim mv3 w-50 br2">Action</a>
-        <a href="#0" class="f5 fw6 pointer outline-0 no-underline db ph3 pv3 shadow-hover shadow-4 blue dim mv3 w-50 br2">Action <span class="fr ma0">☰</span></a>
+        <a href="#0" class="bg-white f5 fw6 pointer outline-0 no-underline db ph3 pv3 shadow-hover shadow-4 blue dim mv3 w-50 br2">Action</a>
+        <a href="#0" class="bg-white f5 fw6 pointer outline-0 no-underline db ph3 pv3 shadow-hover shadow-4 blue dim mv3 w-50 br2">Action <span class="fr ma0">☰</span></a>
 
         <h3 class="f2 sans mb2">Text Input</h3>
         <div class="mv4">
@@ -384,7 +448,7 @@
         <h3 class="f2 sans mb2">Review Invite modal</h3>
 
         <div class="mv5">
-          <div class="b--mystic center w-80-ns w-100 mw6 ph4 pv3 ph5-ns pv4-ns ba br2 shadow-4 -sizing">
+          <div class="bg-white b--mystic center w-80-ns w-100 mw6 ph4 pv3 ph5-ns pv4-ns ba br2 shadow-4 -sizing">
             <p class="black f3 fw6 mb4 tc">Send Review Invite</p>
             <label for="input-name" class="gray f5 db fw6 mb2">Customer Name</label>
             <input
@@ -404,6 +468,12 @@
               <input type="submit" value="Send Invite" href="#0" class="f4 pointer grow outline-0 no-underline br-pill ph4 pv3 mb2 dib white bg-green bw0 tc mv4 w-100">
           </div>
         </div>
+
+        <h3 class="f2">Review card</h3>
+        <p>
+          Note this shows a Ford version of this but it could easily be adapted.
+        </p>
+        <section class="mb4 pt4 ba b--mystic mw8 center bg-white black-60 shadow-1"><div class="flex flex-row ph4 items-baseline"><h3 class="fw6 f5 mv0">person34</h3><div class="o-50 fw5 pl3">Manchild</div><div class="flex-auto tr f6 o-50 fw5">2 days old</div></div><div class="ml4 mt2 flex"><div class="blue pr1">★ </div><div class="blue pr1">★ </div><div class="blue pr1">★ </div><div class="blue pr1">★ </div><div class="iron pr1">★ </div></div><p class="ph4 lh-copy">I give it one thumb up and one thumb down.</p><div class="flex flex-column flex-row-ns bt b--mystic f6 black-40"><div class="pl4 pv3 flex-auto"><!-- react-text: 497 -->Survey Posted: <!-- /react-text --><span class="fw6"><!-- react-text: 499 --> <!-- /react-text --><!-- react-text: 500 -->Jun 2, 2017<!-- /react-text --><!-- react-text: 501 --> <!-- /react-text --></span></div><div class="pl4 pv3 flex-auto"><!-- react-text: 503 -->Review Posted: <!-- /react-text --><span class="fw6"><!-- react-text: 505 --> <!-- /react-text --><!-- react-text: 506 -->Jun 2, 2017<!-- /react-text --><!-- react-text: 507 --> <!-- /react-text --></span></div><div class="pl4 pv3  flex-auto"><!-- react-text: 509 -->Survey ID: <!-- /react-text --><span class="fw6"><!-- react-text: 511 --> <!-- /react-text --><!-- react-text: 512 -->34<!-- /react-text --><!-- react-text: 513 --> <!-- /react-text --></span></div><div class="pl4 pv3 flex-auto mr4"><!-- react-text: 515 -->Survey Type: <!-- /react-text --><span class="fw6"><!-- react-text: 517 --> <!-- /react-text --><!-- react-text: 518 --> <!-- /react-text --></span></div><button class="bw0 bg-white tc ph4 pv3 bl-ns b--mystic f6 flex-auto blue bg-animate link avenir hover-white hover-bg-blue" href="#0">Reply</button></div></section>
       </div>
 
     </div>
