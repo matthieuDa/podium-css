@@ -1087,6 +1087,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .lh-solid { line-height: 1; }
 .lh-title { line-height: 1.25; }
 .lh-copy { line-height: 1.5; }
+.lh-copy-mega { line-height: 2; }
 /*
 
    LINKS
@@ -2425,6 +2426,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .lh-solid-ns { line-height: 1; }
  .lh-title-ns { line-height: 1.25; }
  .lh-copy-ns { line-height: 1.5; }
+ .lh-copy-mega-ns { line-height: 2; }
  .mw-100-ns { max-width: 100%; }
  .mw1-ns { max-width: 1rem; }
  .mw2-ns { max-width: 2rem; }
@@ -2840,6 +2842,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .lh-solid-m { line-height: 1; }
  .lh-title-m { line-height: 1.25; }
  .lh-copy-m { line-height: 1.5; }
+ .lh-copy-mega-m { line-height: 2; }
  .mw-100-m { max-width: 100%; }
  .mw1-m { max-width: 1rem; }
  .mw2-m { max-width: 2rem; }
@@ -3255,6 +3258,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .lh-solid-l { line-height: 1; }
  .lh-title-l { line-height: 1.25; }
  .lh-copy-l { line-height: 1.5; }
+ .lh-copy-mega-l { line-height: 2; }
  .mw-100-l { max-width: 100%; }
  .mw1-l { max-width: 1rem; }
  .mw2-l { max-width: 2rem; }
