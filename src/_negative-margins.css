@@ -52,6 +52,7 @@
 .nr6 { margin-right: -var(--spacing-extra-extra-large); }
 .nr7 { margin-right: -var(--spacing-extra-extra-extra-large); }
 
+.nb05 { margin-bottom: -var(--spacing-extra-extra-small); }
 .nb1 { margin-bottom: -var(--spacing-extra-small); }
 .nb2 { margin-bottom: -var(--spacing-small); }
 .nb3 { margin-bottom: -var(--spacing-medium); }
@@ -94,6 +95,7 @@
   .nr6-ns { margin-right: -var(--spacing-extra-extra-large); }
   .nr7-ns { margin-right: -var(--spacing-extra-extra-extra-large); }
 
+  .nb05-ns { margin-bottom: -var(--spacing-extra-extra-small); }
   .nb1-ns { margin-bottom: -var(--spacing-extra-small); }
   .nb2-ns { margin-bottom: -var(--spacing-small); }
   .nb3-ns { margin-bottom: -var(--spacing-medium); }
@@ -137,6 +139,7 @@
   .nr6-m { margin-right: -var(--spacing-extra-extra-large); }
   .nr7-m { margin-right: -var(--spacing-extra-extra-extra-large); }
 
+  .nb05-m { margin-bottom: -var(--spacing-extra-extra-small); }
   .nb1-m { margin-bottom: -var(--spacing-extra-small); }
   .nb2-m { margin-bottom: -var(--spacing-small); }
   .nb3-m { margin-bottom: -var(--spacing-medium); }
@@ -180,6 +183,7 @@
   .nr6-l { margin-right: -var(--spacing-extra-extra-large); }
   .nr7-l { margin-right: -var(--spacing-extra-extra-extra-large); }
 
+  .nb05-l { margin-bottom: -var(--spacing-extra-extra-small); }
   .nb1-l { margin-bottom: -var(--spacing-extra-small); }
   .nb2-l { margin-bottom: -var(--spacing-small); }
   .nb3-l { margin-bottom: -var(--spacing-medium); }

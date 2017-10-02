@@ -2,6 +2,7 @@
 
 :root {
   --spacing-none: 0;
+  --spacing-extra-extra-small: .125rem;  
   --spacing-extra-small: .25rem;
   --spacing-small: .5rem;
   --spacing-medium: 1rem;
